@@ -1,0 +1,398 @@
+1. Who invented Java Programming?
+a) Guido van Rossum
+b) James Gosling
+c) Dennis Ritchie
+d) Bjarne Stroustrup
+coorect : b
+
+2. Which statement is true about Java?
+a) Java is a sequence-dependent programming language
+b) Java is a code dependent programming language
+c) Java is a platform-dependent programming language
+d) Java is a platform-independent programming language
+coorect : d
+
+3. Which component is used to compile, debug and execute the java programs?
+a) JRE
+b) JIT
+c) JDK
+d) JVM
+coorect : c
+
+4. Which one of the following is not a Java feature?
+a) Object-oriented
+b) Use of pointers
+c) Portable
+d) Dynamic and Extensible
+coorect : b
+
+5. Which of these cannot be used for a variable name in Java?
+a) identifier & keyword
+b) identifier
+c) keyword
+d) none of the mentioned
+coorect : c
+
+1) Which of the following option leads to the portability and security of Java?
+
+Bytecode is executed by JVM
+The applet makes the Java code secure and portable
+Use of exception handling
+Dynamic binding between objects
+Answer: a
+
+2) Which of the following is not a Java features?
+
+Dynamic
+Architecture Neutral
+Use of pointers
+Object-oriented
+Answer: c
+
+3) What should be the execution order, if a class has a method, static block, instance block, and constructor, as shown below?
+
+public class First_C {  
+      public void myMethod()   
+    {  
+    System.out.println("Method");  
+    }  
+      
+    {  
+    System.out.println(" Instance Block");  
+    }  
+          
+    public void First_C()  
+    {  
+    System.out.println("Constructor ");  
+    }  
+    static {  
+        System.out.println("static block");  
+    }  
+    public static void main(String[] args) {  
+    First_C c = new First_C();  
+    c.First_C();  
+    c.myMethod();  
+  }  
+}   
+Instance block, method, static block, and constructor
+Method, constructor, instance block, and static block
+Static block, method, instance block, and constructor
+Static block, instance block, constructor, and method
+Answer: d
+
+4) What will be the output of the following program?
+public class MyFirst {  
+      public static void main(String[] args) {  
+         MyFirst obj = new MyFirst(n);  
+ }  
+ static int a = 10;  
+ static int n;  
+ int b = 5;  
+ int c;  
+ public MyFirst(int m) {  
+       System.out.println(a + ", " + b + ", " + c + ", " + n + ", " + m);  
+   }  
+// Instance Block  
+  {  
+     b = 30;  
+     n = 20;  
+  }   
+// Static Block  
+  static   
+{  
+          a = 60;  
+     }   
+ }  
+a. 10, 5, 0, 20, 0
+b. 10, 30, 20
+c. 60, 5, 0, 20
+d. 60, 30, 0, 20, 0
+Answer: d
+
+5) The \u0021 article referred to as a
+
+Unicode escape sequence
+Octal escape
+Hexadecimal
+Line feed
+Answer: a
+
+6) _____ is used to find and fix bugs in the Java programs.
+
+JVM
+JRE
+JDK
+JDB
+Answer: d
+
+7) Which of the following is a valid declaration of a char?
+
+char ch = '\utea';
+char ca = 'tea';
+char cr = \u0223;
+char cc = '\itea';
+Answer: a 
+
+8) What is the return type of the hashCode() method in the Object class?
+Object
+int
+long
+void
+Answer: b 
+
+9) Which of the following is a valid long literal?
+ABH8097
+L990023
+904423
+0xnf029L
+Answer: d 
+
+10) What does the expression float a = 35 / 0 return?
+0
+Not a Number
+Infinity
+Run time exception
+Answer: c
+
+11) Evaluate the following Java expression, if x=3, y=5, and z=10:
+
+++z + y - y + z + x++
+
+24
+23
+20
+25
+Show Answer Workspace
+12) What will be the output of the following program?
+
+public class Test {  
+public static void main(String[] args) {  
+    int count = 1;  
+    while (count <= 15) {  
+    System.out.println(count % 2 == 1 ? "***" : "+++++");  
+    ++count;  
+        }      // end while  
+    }       // end main   
+ }  
+15 times ***
+15 times +++++
+8 times *** and 7 times +++++
+Both will print only once
+Show Answer Workspace
+13) Which of the following tool is used to generate API documentation in HTML format from doc comments in source code?
+
+javap tool
+javaw command
+Javadoc tool
+javah command
+Show Answer Workspace
+14) Which of the following creates a List of 3 visible items and multiple selections abled?
+
+new List(false, 3)
+new List(3, true)
+new List(true, 3)
+new List(3, false)
+Show Answer Workspace
+15) Which of the following for loop declaration is not valid?
+
+for ( int i = 99; i >= 0; i / 9 )
+for ( int i = 7; i <= 77; i += 7 )
+for ( int i = 20; i >= 2; - -i )
+for ( int i = 2; i <= 20; i = 2* i )
+Show Answer Workspace
+16) Which method of the Class.class is used to determine the name of a class represented by the class object as a String?
+
+getClass()
+intern()
+getName()
+toString()
+Show Answer Workspace
+17) In which process, a local variable has the same name as one of the instance variables?
+
+Serialization
+Variable Shadowing
+Abstraction
+Multi-threading
+Show Answer Workspace
+18) Which of the following is true about the anonymous inner class?
+
+It has only methods
+Objects can't be created
+It has a fixed class name
+It has no class name
+Show Answer Workspace
+19) Which package contains the Random class?
+
+java.util package
+java.lang package
+java.awt package
+java.io package
+Show Answer Workspace
+20) What do you mean by nameless objects?
+
+An object created by using the new keyword.
+An object of a superclass created in the subclass.
+An object without having any name but having a reference.
+An object that has no reference.
+Show Answer Workspace
+21) An interface with no fields or methods is known as a ______.
+
+Runnable Interface
+Marker Interface
+Abstract Interface
+CharSequence Interface
+Show Answer Workspace
+22) Which of the following is an immediate subclass of the Panel class?
+
+Applet class
+Window class
+Frame class
+Dialog class
+Show Answer Workspace
+23) Which option is false about the final keyword?
+
+A final method cannot be overridden in its subclasses.
+A final class cannot be extended.
+A final class cannot extend other classes.
+A final method can be inherited.
+Show Answer Workspace
+24) Which of these classes are the direct subclasses of the Throwable class?
+
+RuntimeException and Error class
+Exception and VirtualMachineError class
+Error and Exception class
+IOException and VirtualMachineError class
+Show Answer Workspace
+25) What do you mean by chained exceptions in Java?
+
+Exceptions occurred by the VirtualMachineError
+An exception caused by other exceptions
+Exceptions occur in chains with discarding the debugging information
+None of the above
+Show Answer Workspace
+26) In which memory a String is stored, when we create a string using new operator?
+
+Stack
+String memory
+Heap memory
+Random storage space
+Show Answer Workspace
+27) What is the use of the intern() method?
+
+It returns the existing string from memory
+It creates a new string in the database
+It modifies the existing string in the database
+None of the above
+Show Answer Workspace
+28) Which of the following is a marker interface?
+
+Runnable interface
+Remote interface
+Readable interface
+Result interface
+Show Answer Workspace
+29) Which of the following is a reserved keyword in Java?
+
+object
+strictfp
+main
+system
+Show Answer Workspace
+30) Which keyword is used for accessing the features of a package?
+
+package
+import
+extends
+export
+Show Answer Workspace
+31) In java, jar stands for_____.
+
+Java Archive Runner
+Java Application Resource
+Java Application Runner
+None of the above
+Show Answer Workspace
+32) What will be the output of the following program?
+
+public class Test2 {  
+    public static void main(String[] args) {  
+        StringBuffer s1 = new StringBuffer("Complete");  
+        s1.setCharAt(1,'i');  
+        s1.setCharAt(7,'d');  
+        System.out.println(s1);  
+     }  
+ }  
+Complete
+Iomplede
+Cimpletd
+Coipletd
+Show Answer Workspace
+33) Which of the following is false?
+
+The rt.jar stands for the runtime jar
+It is an optional jar file
+It contains all the compiled class files
+All the classes available in rt.jar is known to the JVM
+Show Answer Workspace
+34) What is the use of \w in regex?
+
+Used for a whitespace character
+Used for a non-whitespace character
+Used for a word character
+Used for a non-word character
+Show Answer Workspace
+35) Which of the given methods are of Object class?
+
+notify(), wait( long msecs ), and synchronized()
+wait( long msecs ), interrupt(), and notifyAll()
+notify(), notifyAll(), and wait()
+sleep( long msecs ), wait(), and notify()
+Show Answer Workspace
+36) Given that Student is a class, how many reference variables and objects are created by the following code?
+
+Student studentName, studentId;  
+studentName = new Student();  
+Student stud_class = new Student();   
+Three reference variables and two objects are created.
+Two reference variables and two objects are created.
+One reference variable and two objects are created.
+Three reference variables and three objects are created.
+Show Answer Workspace
+37) Which of the following is a valid syntax to synchronize the HashMap?
+
+Map m = hashMap.synchronizeMap();
+HashMap map =hashMap.synchronizeMap();
+Map m1 = Collections.synchronizedMap(hashMap);
+Map m2 = Collection.synchronizeMap(hashMap);
+Show Answer Workspace
+38) Given,
+
+ArrayList list = new ArrayList();  
+What is the initial quantity of the ArrayList list?
+
+5
+10
+0
+100
+Show Answer Workspace
+39) Which of the following is a mutable class in java?
+
+java.lang.String
+java.lang.Byte
+java.lang.Short
+java.lang.StringBuilder
+Show Answer Workspace
+40) What will be the output of the following program?
+
+abstract class MyFirstClass  
+{  
+     abstract num (int a, int b) {  }  
+}  
+No error
+Method is not defined properly
+Constructor is not defined properly
+Extra parentheses
+
+
+
+
